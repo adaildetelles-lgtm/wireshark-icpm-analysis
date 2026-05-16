@@ -11,7 +11,7 @@ The objective was to capture and analyze ICMP packets generated between virtual 
 
 ### Virtual Machines
 - Kali Linux
-- Ubuntu Linux
+- Metasploitable 2
 
 ### Tools
 - Wireshark
@@ -28,7 +28,7 @@ Both virtual machines were configured on the same virtual network to allow commu
 
 ## Traffic Generation
 
-ICMP traffic was generated using the ping command from Kali Linux to Ubuntu.
+ICMP traffic was generated using the ping command from Kali Linux to Metasploitable 2.
 
 Example:
 
@@ -70,10 +70,14 @@ Although ICMP is legitimate traffic, abnormal ICMP activity may indicate:
 ## Evidence
 
 ### ICMP Packet Capture
-(Add screenshot here)
+
+<img width="1366" height="643" alt="image" src="https://github.com/user-attachments/assets/74591c3d-b0d0-4b61-a053-0928f4d494d6" />
+
 
 ### Ping Communication
-(Add screenshot here)
+
+<img width="1366" height="643" alt="image" src="https://github.com/user-attachments/assets/9d66d734-abee-4557-ae4e-53549dc91dad" />
+
 
 ---
 
